@@ -40,11 +40,11 @@ h6 {
 	color: #1C0C35;
 }
 
-a {
+.link-rob {
 	color: #FF9C00;
 }
 
-a:hover, a:focus {
+.link-rob:hover, .link-rob:focus {
 	color: #FF9C00;
 	text-decoration: underline;
 }
@@ -52,6 +52,7 @@ a:hover, a:focus {
 .navbar-light .navbar-nav .nav-link {
 	color: #1C0C35;
 }
+
 
 .navbar-light .navbar-nav .nav-link:hover {
 	color: #FF9C00;
@@ -77,6 +78,22 @@ a:hover, a:focus {
   	background-repeat: no-repeat;
 }
 
+.dogecat {
+	background-image: url("../img/dogecat-1280.jpg");
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #ccc;
+	min-height: 180px;
+	background-size: cover;
+	
+}
+
+.overlay-40 {
+	background-color: rgba(0,0,0,0.3)
+}
+
+
 .jumbotron {
 	background-color: transparent;
 }
@@ -96,5 +113,33 @@ a:hover, a:focus {
 .navbar-light .navbar-nav .nav-link {
 	margin-left: -1rem;
 	margin-right: 2rem;
+}
+
+.light-backg {
+	background-color: #F7F7F8 !important;
+}
+
+.btn-primary {
+	background-color: #FF9C00;
+	border-color: #FF9C00;
+	border-radius: 1.25rem;
+	color: #FFFFFF !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	background-color: #6C00FF;
+	border-color: #6C00FF;
+	color: #FFFFFF !important;
+}
+
+.btn-primary a {
+	color: #FFFFFF;
+}
+
+.btn-primary a:hover,
+.btn-primary a:focus {
+	color: #FFFFFF;
+	text-decoration: none;
 }
 
